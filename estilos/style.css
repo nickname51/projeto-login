@@ -13,7 +13,7 @@ lilaz: #5f2c82
 }
 
 html, body {
-    background-image: linear-gradient(to bottom, gray , white);
+    background-image: linear-gradient(to bottom, rgba(117, 116, 116, 0.76) , rgba(0, 0, 0, 0.993));
     height: 100vh;
     width: 100vw;
 }

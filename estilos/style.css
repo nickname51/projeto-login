@@ -65,3 +65,78 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.9em;
 }
+form > .campo {
+    background-color:gray ;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px 0px;
+    padding: 8px;
+   
+}
+
+form label {
+    display: none;
+  
+}
+#ilogin {
+    border-radius:3px;
+}
+#isenha {
+    border-radius:3px;
+}
+
+form > .senha {
+    background-color:gray ;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px 0px;
+    padding: 8px;
+    
+
+}
+
+form > input[type=submit]{
+    padding: 1px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color:darkgray;
+    cursor: pointer;
+
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size:1em;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: ghostwhite;
+    padding: 5px;
+    text-decoration: none;
+}
+
+font > a.botao > span {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+form > a.botao:hover { 
+  cursor: pointer;
+  background-color:darkgray;
+  
+} 
